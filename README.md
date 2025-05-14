@@ -10,3 +10,13 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+day 1(14/05/25) :learnt about components in react 
+->leant how props are reused 
+->learnt about states and hooks
+  const [hasliked, sethasliked]= useState(false);//initialcondition
+  const [count,setcount] = useState(0);
+->learnt about useEffect
+   useEffect(() => {
+    console.log(`${title} has been liked:${hasliked}`);
+  }, [hasliked]);
